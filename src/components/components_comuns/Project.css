@@ -1,85 +1,93 @@
-.project_anchor{
-    text-decoration: none;
-    outline: none;
+.project_anchor {
+  text-decoration: none;
+  outline: none;
 }
 
-.project{
-    background-color: var(--bg-cards);
-    border-radius: 20px;
-    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
-    padding: 8%;
-    font-size: 14px;
+.project {
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  padding: 8%;
 }
 
-.project h6{
-    margin-top: 7%;
-    margin-bottom: 16%;
-    font-size: 1em;
+.project_description {
+  min-height: 100px;
+  font-size: 14px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
-.project_title{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 6px;
-    font-size: 16px;
+.project_description h6 {
+  font-size: 1em;
 }
 
-.project_title h4{
-    font-size: 1em;
-    font-weight: 700;
+.project_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
 }
 
-.project_props{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.project_title h4 {
+  font-size: 1em;
+  font-weight: 700;
 }
 
-.project_stats{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 21%;
+.project_props {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.project_star, .project_branch{
-    display: flex;
-    flex-direction: row;
-    font-size: 14px;
-    gap: 7.5px;
+.project_stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 21%;
 }
 
-.project_star, .project_branch p{
-    font-size: 1em;
+.project_star,
+.project_branch {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  gap: 7.5px;
+}
+
+.project_star,
+.project_branch p {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.project_language {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.project_language p {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+@media (min-width: 1100px) {
+  .project_description,
+  .project_star,
+  .project_branch,
+  .project_language {
+    font-size: 17px;
+  }
+
+  .project h6 {
     font-weight: 500;
-}
+  }
 
-.project_language{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 14px;
-    gap: 8px;
-}
-
-.project_language p{
-    font-size: 1em;
-    font-weight: 500;
-}
-
-
-@media (min-width: 1024px){
-    .project, .project_star, .project_branch, .project_language{
-        font-size: 17px;
-    }
-
-    .project h6{
-        font-weight: 500;
-    }
-
-    .project_title{
-        font-size: 20px;
-    }
+  .project_title {
+    font-size: 20px;
+  }
 }

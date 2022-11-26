@@ -34,10 +34,11 @@
   gap: 25px;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
-.projects_container ul li{
-  transition: all .3s ease;
+.projects_container ul li {
+  transition: all 0.3s ease;
 }
 
 @media (min-width: 1024px) {
@@ -53,14 +54,13 @@
     font-size: 24px;
   }
 
-  .projects_container ul{
+  .projects_container ul {
     display: grid;
     grid-template: auto / auto auto;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
   }
 
-  .projects_container ul li:hover{
+  .projects_container ul li:hover {
     background-color: var(--bg-cards-hover);
   }
 }

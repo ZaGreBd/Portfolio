@@ -10,18 +10,15 @@ function Project(props) {
   let project_name = props.repository.name.split("-").join(" ");
 
   return (
-    <a
-      href={props.repository.html_url}
-      target="_blank"
-      rel="noreferrer"
-      className="project_anchor"
-    >
+    <a href={props.repository.html_url} target="_blank" rel="noreferrer" className="project_anchor">
       <li className="project">
         <div className="project_title">
           <img src={folder} alt="ícone de pasta" />
           <h4>{project_name}</h4>
         </div>
-        <h6>{props.repository.description}</h6>
+        <div className="project_description">
+          <h6>{props.repository.description}</h6>
+        </div>
         <div className="project_props">
           <div className="project_stats">
             <div className="project_star">
@@ -34,7 +31,7 @@ function Project(props) {
             </div>
           </div>
           <div className="project_language">
-            <Language language={props.repository.language}/>
+            <Language language={props.repository.language} />
             <p>{props.repository.language}</p>
           </div>
         </div>
