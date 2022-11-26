@@ -1,0 +1,80 @@
+.post {
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  padding: 5%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.post_photo img {
+  width: 85%;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.post_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+}
+
+.post_title {
+  font-size: 18px;
+}
+
+.post_title p {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.post_date {
+  font-size: 14px;
+  margin-top: 3%;
+}
+
+.post_date p {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.post_description {
+  font-size: 16px;
+  margin-top: 8%;
+}
+
+.post_description p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.post_tags {
+  font-size: 14px;
+  margin-top: 4%;
+}
+
+.post_tags p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+
+@media (min-width: 1024px){
+  .post_title{
+    font-size: 22px;
+  }
+
+  .post_date, .post_tags{
+    font-size: 17px;
+  }
+
+  .post_description{
+    font-size: 19px;
+  }
+}

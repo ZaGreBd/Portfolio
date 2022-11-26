@@ -1,0 +1,15 @@
+.education{
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    padding: 9% 5%;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.education_list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

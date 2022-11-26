@@ -1,0 +1,33 @@
+.link{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    align-items: center;
+    transition: all .2s ease;
+}
+
+.link a{
+    text-decoration: none;
+    outline: none;
+}
+
+.link img{
+    margin-right: 20px;
+    transition: all .2s ease;
+}
+
+.link p{
+    font-size: 1em;
+    padding-bottom: 1%;
+    font-weight: 400;
+}
+
+@media (min-width: 1024px){
+    .link{
+        font-size: 15px;
+    }
+
+    .link:hover{
+        font-size: 100%;
+    }
+}

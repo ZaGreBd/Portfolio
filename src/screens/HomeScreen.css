@@ -1,0 +1,41 @@
+.home_screen{
+    background-color: var(--main-color);
+    display: block;
+}
+
+.content_screen{
+    display: none;
+}
+
+
+
+@media (min-width: 1024px){
+    .header_screen{
+        display: none;
+    }
+
+    .projects_screen{
+        display: inline;
+    }
+
+    .posts_screen{
+        display: inline;
+    }
+
+
+    .home_screen{
+        margin: 0 auto;
+    }
+
+    .container_screen{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .content_screen{
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+    }
+}

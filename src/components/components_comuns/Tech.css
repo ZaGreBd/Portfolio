@@ -1,0 +1,20 @@
+.tech{
+    background-color: var(--bg-techs);
+    font-size: 10px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5% 0;
+}
+
+.tech p{
+    color: var(--footer-color);
+    font-size: 1em;
+    font-weight: 700;
+}
+
+
+@media (min-width: 1024px){
+    .tech{
+        font-size: 12px;
+    }
+}
