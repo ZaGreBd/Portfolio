@@ -46,8 +46,8 @@ function Links() {
       <Link
         icon={iconGlobe}
         alt="Ícone de globo"
-        text="https://zagrebd.github.io/Portfolio"
-        href="https://zagrebd.github.io/Portfolio"
+        text="https://portfolio-zagebd.vercel.app"
+        href="https://portfolio-zagebd.vercel.app"
       />
       <Link
         icon={iconMail}

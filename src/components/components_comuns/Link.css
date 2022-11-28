@@ -3,7 +3,6 @@
     flex-direction: row;
     font-size: 13px;
     align-items: center;
-    transition: all .2s ease;
 }
 
 .link a{
@@ -20,6 +19,7 @@
     font-size: 1em;
     padding-bottom: 1%;
     font-weight: 400;
+    transition: all .2s ease;
 }
 
 @media (min-width: 1024px){
@@ -27,7 +27,11 @@
         font-size: 15px;
     }
 
-    .link:hover{
-        font-size: 100%;
+    .link p:hover{
+        font-size: 104%;
+    }
+
+    .link img:hover{
+        transform: scale(1.3, 1.3);
     }
 }
