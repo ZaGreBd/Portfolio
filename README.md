@@ -5,6 +5,4 @@
 
 - Ver como deixar a opção atual selecionada
 
-- Alterar a pasta public
-
 - Pedir ajuda para o Vinão de como arrumar o .map(key)
