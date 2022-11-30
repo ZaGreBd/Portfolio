@@ -16,7 +16,7 @@ function Language(props) {
 
     case "Dart":
       return <div className="language" id="dart"></div>;
-    
+
     case "TSQL":
       return <div className="language" id="tsql"></div>;
 
@@ -25,6 +25,9 @@ function Language(props) {
 
     case "C":
       return <div className="language" id="c"></div>;
+
+    case "SCSS":
+      return <div className="language" id="scss"></div>;
 
     default:
       return <div className="language"></div>;

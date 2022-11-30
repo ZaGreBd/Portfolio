@@ -1,0 +1,14 @@
+// Import Variáveis
+@import "./variables/colors/colors.scss";
+@import "./variables/screen_size/screen_size.scss";
+
+//Import Src
+@import "./src/index.scss";
+@import "./src/app.scss";
+
+// Import Screens
+@import "./screens/homeScreen.scss";
+@import "./screens/postsScreen.scss";
+@import "./screens/projectsScreen.scss";
+
+//Import Components

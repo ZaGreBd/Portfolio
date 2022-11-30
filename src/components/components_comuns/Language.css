@@ -32,3 +32,7 @@
 #c{
     background-color: var(--circle-c);
 }
+
+#c{
+    background-color: var(--circle-scss);
+}
