@@ -23,9 +23,15 @@ function Education() {
         />
         <ItemList
           job="OneBitCode"
-          time="2021 - Atualmente"
-          function="Programação Full Stack"
+          time="2022 - Atualmente"
+          function="Full Stack Javascript"
           href="https://programador.onebitcode.com/"
+        />
+        <ItemList
+          job="Rocketseat"
+          time="2022 - Atualmente"
+          function="Rocketseat - Discover"
+          href="https://app.rocketseat.com.br/discover"
         />
       </ul>
     </div>
