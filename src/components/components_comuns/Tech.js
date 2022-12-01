@@ -1,12 +1,12 @@
 import React from "react";
-import "./Tech.css"
+// import "./Tech.css"
 
-function Tech(props){
-    return (
-        <div className="tech">
-            <p>{props.text}</p>
-        </div>
-    )
+function Tech(props) {
+  return (
+    <div className="tech">
+      <p>{props.text}</p>
+    </div>
+  );
 }
 
-export default Tech
+export default Tech;

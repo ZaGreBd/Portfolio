@@ -12,3 +12,33 @@
 @import "./screens/projectsScreen.scss";
 
 //Import Components
+
+//Import Header
+@import "./components/header.scss";
+@import "./components/menu.scss";
+@import "./components/subcomponents/mnuBtn.scss";
+@import "./components/subcomponents/title.scss";
+
+//Import AboutMe
+@import "./components/abouteMe.scss";
+@import "./components/profile.scss";
+@import "./components/links.scss";
+@import "./components/subcomponents/link.scss";
+@import "./components/technologies.scss";
+@import "./components/subcomponents/subtitle.scss";
+@import "./components/subcomponents/tech.scss";
+@import "./components/experiences.scss";
+@import "./components/subcomponents/itemList.scss";
+@import "./components/education.scss";
+
+//Import Projects
+@import "./components/projects.scss";
+@import "./components/subcomponents/project.scss";
+@import "./components/subcomponents/language.scss";
+
+//Import Posts
+@import "./components/posts.scss";
+@import "./components/subcomponents/post.scss";
+
+//Import Footer
+@import "./components/footer.scss";

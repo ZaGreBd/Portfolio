@@ -1,5 +1,5 @@
 import React from "react";
-import "./Posts.css";
+// import "./Posts.css";
 
 import Post from "./components_comuns/Post";
 

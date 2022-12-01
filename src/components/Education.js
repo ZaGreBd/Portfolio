@@ -1,5 +1,5 @@
 import React from "react";
-import "./Education.css"
+// import "./Education.css"
 
 import Subtitle from "./components_comuns/Subtitle";
 import ItemList from "./components_comuns/ItemList";

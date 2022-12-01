@@ -1,5 +1,5 @@
 import React from "react";
-import "./Links.css";
+// import "./Links.css";
 
 import iconMap from "../assets/icons/map-pin.svg";
 import iconBriefcase from "../assets/icons/briefcase.svg";

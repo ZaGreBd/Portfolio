@@ -1,38 +1,38 @@
-.language{
-    width: 13px;
-    height: 13px;
-    border: 2px solid var(--main-color);
-    border-radius: 50% ;
+.language {
+  width: 13px;
+  height: 13px;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
 }
 
-#html{
-    background-color: var(--circle-html);
+#html {
+  background-color: var(--circle-html);
 }
 
-#css{
-    background-color: var(--circle-css);
+#css {
+  background-color: var(--circle-css);
 }
 
-#js{
-    background-color: var(--circle-js);
+#js {
+  background-color: var(--circle-js);
 }
 
-#dart{
-    background-color: var(--circle-dart);
+#dart {
+  background-color: var(--circle-dart);
 }
 
-#tsql{
-    background-color: var(--circle-tsql);
+#tsql {
+  background-color: var(--circle-tsql);
 }
 
-#cpp{
-    background-color: var(--circle-cpp);
+#cpp {
+  background-color: var(--circle-cpp);
 }
 
-#c{
-    background-color: var(--circle-c);
+#c {
+  background-color: var(--circle-c);
 }
 
-#c{
-    background-color: var(--circle-scss);
+#scss {
+  background-color: var(--circle-scss);
 }

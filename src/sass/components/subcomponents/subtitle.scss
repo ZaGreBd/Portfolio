@@ -1,0 +1,13 @@
+.subtitle {
+  font-size: 20px;
+
+  h2 {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: $m) {
+  .subtitle {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,16 @@
+.mnuBtn {
+  font-size: 23px;
+  font-weight: 700;
+  width: 100vw;
+  text-align: center;
+
+  p {
+    padding: 32.5px 0;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: &main-color;
+      color: &bg-cards;
+    }
+  }
+}

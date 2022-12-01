@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Projects.css";
+// import "./Projects.css";
 
 import Project from "./components_comuns/Project";
 
@@ -20,9 +20,7 @@ function Projects() {
       <div className="projects_container">
         <ul>
           {repositories.map((repository) => {
-            return (
-              <Project repository={repository} />
-            );
+            return <Project repository={repository} />;
           })}
         </ul>
       </div>
