@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Post.css";
+import "./Post.css";
 
 import Foto from "../../assets/photos/shanks.jpg";
 

@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Project.css";
+import "./Project.css";
 
 import folder from "../../assets/icons/folder.svg";
 import star from "../../assets/icons/star.svg";

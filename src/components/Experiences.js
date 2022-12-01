@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Experiences.css";
+import "./Experiences.css";
 
 import Subtitle from "./components_comuns/Subtitle";
 import ItemList from "./components_comuns/ItemList";

@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Technologies.css";
+import "./Technologies.css";
 
 import Subtitle from "./components_comuns/Subtitle";
 import Tech from "./components_comuns/Tech";

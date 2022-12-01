@@ -1,5 +1,5 @@
 import React from "react";
-// import "./ProjectsScreen.css"
+import "./ProjectsScreen.css";
 
 import Header from "../components/Header";
 import Projects from "../components/Projects";

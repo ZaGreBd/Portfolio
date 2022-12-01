@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Language.css";
+import "./Language.css";
 
 function Language(props) {
   let color = props.language;

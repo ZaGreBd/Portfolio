@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Tech.css"
+import "./Tech.css";
 
 function Tech(props) {
   return (

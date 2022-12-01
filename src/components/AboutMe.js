@@ -1,5 +1,5 @@
 import React from "react";
-// import "./AboutMe.css";
+import "./AboutMe.css";
 
 import Profile from "./Profile.js";
 import Links from "./Links";

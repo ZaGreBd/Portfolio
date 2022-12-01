@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import "./Projects.css";
+import "./Projects.css";
 
 import Project from "./components_comuns/Project";
 

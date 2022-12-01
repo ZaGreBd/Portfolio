@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./Menu.css";
+import "./Menu.css";
 
 import menu_open from "../assets/icons/menu_open.png";
 import menu_close from "../assets/icons/menu_close.png";
