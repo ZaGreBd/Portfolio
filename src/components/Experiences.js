@@ -18,7 +18,7 @@ function Experiences() {
         <ItemList
           job="Ciarama"
           time="2022 - Atualmente"
-          function="Auxiliar de T.I."
+          function="Profissional de T.I."
           href="https://www.google.com/maps/place/CIARAMA+FAZENDAS/@-22.5461138,-55.7240743,17z/data=!3m1!4b1!4m5!3m4!1s0x94626ef255743463:0xec5527f3f4b14d8f!8m2!3d-22.5461188!4d-55.7218856"
         />
       </ul>

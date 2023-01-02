@@ -5,7 +5,7 @@ function ItemList(props) {
   return (
     <div className="itemList">
       <li>
-        <a href={props.href}>
+        <a target="_blank" rel="noreferrer" href={props.href}>
           <p>{props.job}</p>
         </a>
       </li>
