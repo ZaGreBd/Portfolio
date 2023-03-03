@@ -1,7 +1,7 @@
 import React from "react";
 import "./Post.css";
 
-import Foto from "../../assets/photos/shanks.jpg";
+import Foto from "../../assets/photos/eu.jpg";
 
 function Post(props) {
   return (
@@ -11,11 +11,13 @@ function Post(props) {
           <img src={Foto} alt="Foto do autor" />
         </div>
         <div className="post_text">
-          <div className="post_title">
-            <p>{props.title}</p>
-          </div>
-          <div className="post_date">
-            <p>{props.date}</p>
+          <div className="post_header">
+            <div className="post_title">
+              <p>{props.title}</p>
+            </div>
+            <div className="post_date">
+              <p>{props.date}</p>
+            </div>
           </div>
           <div className="post_description">
             <p>{props.description}</p>

@@ -17,7 +17,7 @@ function Technologies() {
         <Tech text="GITHUB" />
         <Tech text="REACTJS" />
         <Tech text="NODEJS" />
-        <Tech text="FLUTTER" />
+        <Tech text="RUBY" />
       </div>
     </div>
   );
